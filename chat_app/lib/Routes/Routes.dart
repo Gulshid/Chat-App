@@ -1,7 +1,6 @@
 import 'package:chat_app/Routes/Routesname.dart';
 import 'package:chat_app/view_/home_view.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 class Routes {
   static Route<dynamic> generate_Route(RouteSettings set) {
