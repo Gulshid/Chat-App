@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
             builder: (BuildContext context) {
               return MaterialApp(
                 debugShowCheckedModeBanner: false,
-                title: 'Crud Operation',
+                title: 'Flutter practise',
                 theme: ThemeData(
                   applyElevationOverlayColor: true,
                   brightness: Brightness.light,
