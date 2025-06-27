@@ -1,2 +1,2 @@
-# Chat-App
-This is Real time chat App using flutter developement and firebase integration
+# Flutter_practise
+This Repo is about of Flutter Dvelopement practise 
