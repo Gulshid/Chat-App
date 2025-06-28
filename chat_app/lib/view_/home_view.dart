@@ -2,9 +2,9 @@
 // import 'package:chat_app/view_/alarm_view.dart';
 // import 'package:chat_app/view_/home_vi.dart';
 // import 'package:chat_app/view_/person_view.dart';
-import 'package:chat_app/view_/alarm_view.dart';
-import 'package:chat_app/view_/home_vi.dart';
-import 'package:chat_app/view_/person_view.dart';
+// import 'package:chat_app/view_/alarm_view.dart';
+// import 'package:chat_app/view_/home_vi.dart';
+// import 'package:chat_app/view_/person_view.dart';
 import 'package:flutter/material.dart';
 // import 'package:provider/provider.dart';
 
@@ -24,15 +24,15 @@ class _HomeViewState extends State<HomeView> {
       length: 3,
       child: Scaffold(
       
-        appBar: AppBar(
-          centerTitle: true,
-          title: Text('tiitle', style: TextStyle(color: Colors.white),),
-          bottom: TabBar(tabs: [
-            Tab(icon: Icon(Icons.home),text: 'Home',),
-            Tab(icon: Icon(Icons.person), text: 'person',),
-            Tab(icon: Icon(Icons.alarm, ),text: 'Alarm',),
-          ]),
-        ),
+        // appBar: AppBar(
+        //   centerTitle: true,
+        //   title: Text('tiitle', style: TextStyle(color: Colors.white),),
+        //   bottom: TabBar(tabs: [
+        //     Tab(icon: Icon(Icons.home),text: 'Home',),
+        //     Tab(icon: Icon(Icons.person), text: 'person',),
+        //     Tab(icon: Icon(Icons.alarm, ),text: 'Alarm',),
+        //   ]),
+        // ),
         // bottomNavigationBar: BottomNavigationBar(
         //   backgroundColor: Colors.teal,
         //   selectedItemColor: Colors.lightGreen,
@@ -63,11 +63,11 @@ class _HomeViewState extends State<HomeView> {
         //   ],
         // ),
         // body: _page[home_pro.index],
-        body: TabBarView(children: [
-          HomeVi(),
-          PersonView(),
-          AlarmView(),
-        ]),
+        // body: TabBarView(children: [
+        //   HomeVi(),
+        //   PersonView(),
+        //   AlarmView(),
+        // ]),
       ),
     );
   }
